@@ -23,8 +23,6 @@ Ce référentiel contient un Dockerfile pour créer une image Docker basée sur 
     docker build -t lecoinstat .
     ```
 
-    Assurez-vous de remplacer `nom_de_votre_image` par le nom que vous souhaitez donner à votre image.
-
 5. Une fois l'image construite, vous pouvez démarrer un conteneur en utilisant la commande suivante :
 
     ```bash
@@ -48,3 +46,16 @@ Ce référentiel contient un Dockerfile pour créer une image Docker basée sur 
 ## Remarque
 
 - Assurez-vous que le port 8888 sur votre système local n'est pas utilisé par un autre service avant de démarrer le conteneur.
+
+
+
+# Ce qu'il reste à faire : 
+
+Inclure les variables qualitatives dans le modèle par la méthode ANOVA (individuellement).
+Inclure dans le modèle par la méthode ANCOVA à la fois les variables qualitatives et quantitatives.
+
+
+
+# A l'instant le modèle à pour équation :
+
+y=−261.27+0.23×Humidite+1.035×Point_de_rosee+0.006×Altitude
