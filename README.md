@@ -56,6 +56,6 @@ Inclure dans le modèle par la méthode ANCOVA à la fois les variables qualitat
 
 
 
-# A l'instant le modèle à pour équation :
+# A l'instant le modèle à pour équation pour définir une températue  :
 
 y=−261.27+0.23×Humidite+1.035×Point_de_rosee+0.006×Altitude
